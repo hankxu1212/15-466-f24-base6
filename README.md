@@ -1,10 +1,10 @@
-# (TODO: your game's title)
+# Find the black tile
 
-Author: (TODO: your name)
+Author: Hank Xu
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: Tried to get something going, but really can't figure out anything about networking. Ended up spending time on integrating stuff with compute shaders :)
 
-Networking: (TODO: How does your game implement client/server multiplayer? What messages are transmitted? Where in the code?)
+Networking: The idea was for the server to transmit the map state in a sequence of [index, positionX, positionY] in a total of 17 bytes. (1 byte index + 2x8 byte x-y coordinates). The player transmits moves as built in.
 
 Screen Shot:
 
@@ -12,9 +12,8 @@ Screen Shot:
 
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
 
-Sources: (TODO: list a source URL for any assets you did not create yourself. Make sure you have a license for the asset.)
+Nothing really. Sorry!
 
 This game was built with [NEST](NEST.md).
 
